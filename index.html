@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Transitions</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="examples">
+        <div class="example button">
+            <h1 class="heading">BUTTON EXAMPLE</h1>
+            <button class="no-trans">NO</button>
+            <button class="fast">FAST</button>
+            <button class="slow">SLOW</button>
+            <button class="ease">EASE</button>
+        </div>
+
+        <div class="example slider">
+            <h1 class="heading">SLIDER EXAMPLE</h1>
+            <div class="bar">
+                <button class="go no-trans">NO</button>
+            </div>
+            <div class="bar">
+                <button class="go fast">FAST</button>
+            </div>
+            <div class="bar">
+                <button class="go slow">SLOW</button>
+            </div>
+            <div class="bar">
+              <button class="go ease">EASE</button>
+          </div>
+        </div>
+    </section>
+
+    <section class="how">
+      <code>transition: <span class="what">background</span> <span class="time">0.5s</span> <span class="easing">ease</span>;</code>
+    </section>
+
+    <script defer type="text/javascript" src="main.js"></script>
+  </body>
+</html>
