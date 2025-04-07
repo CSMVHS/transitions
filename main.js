@@ -1,5 +1,4 @@
 const codeEl = document.querySelector("code");
-const allOthers = document.querySelectorAll(":not(code)");
 
 codeEl.addEventListener("click", () => {
     codeEl.style.position = "fixed";
